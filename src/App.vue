@@ -18,6 +18,7 @@ onMounted(()=>{
   <button  @click="CounterStore.increment">{{ CounterStore.count }}</button>
   {{ CounterStore.doublecount }}
 
+  
   <!-- <ul>
     <li v-for="item in CounterStore.list"  :key="item.id">{{ item.name }}</li>
   </ul> -->
